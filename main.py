@@ -20,8 +20,7 @@ from langchain.chat_models import ChatOpenAI
 from langchain.chains import ConversationalRetrievalChain
 from langchain.document_loaders import PyPDFLoader
 
-# OPENAI_APIKEY = "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"
-OPENAI_APIKEY = "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"
+OPENAI_APIKEY = "OPEN API KEY"
 
 #Agent A
 def run_Agent_A(llm,pages,dir_name):
